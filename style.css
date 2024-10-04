@@ -3,6 +3,10 @@
     --bg-color:#193498;
     --primary-color:#69DADB;
     --secundary-color:#1597E5;
-    --font: "Nunito Sants", sans-serif;
-    
+    --font-family: "Nunito Sans", sans-serif;
 }
+    body {
+        background-color: var(--bg-color);
+        color: var(--primary-color);
+        font-family: var(--font);
+    }
