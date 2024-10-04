@@ -1,12 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-:root  {
-    --bg-color:#193498;
-    --primary-color:#69DADB;
-    --secundary-color:#1597E5;
+
+:root {
+    --bg-color: #193498;
+    --primary-color: #69DADB;
+    --secundary-color: #1597E5;
     --font-family: "Nunito Sans", sans-serif;
 }
-    body {
-        background-color: var(--bg-color);
-        color: var(--primary-color);
-        font-family: var(--font);
-    }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
