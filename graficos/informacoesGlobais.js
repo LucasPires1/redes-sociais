@@ -7,7 +7,7 @@ async function vizualizarinformacoesGlobais() {
     paragrafo.classList.add('graficos-container_texto')
     paragrafo.innerHTML = `você sabia que o mundo tem ${dados.total_pessoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_mundo} estãoconectadas em alguma rede social e passam em média ${dados.tempo_medio} horas conectadas.`
 
-cosnt container = documrnto.getElementybyId('grafics-container')
+    const container = documrnto.getElementybyId('grafics-container')
     container.appendChild(paragrafos)
 }
 
